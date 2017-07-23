@@ -1,5 +1,7 @@
 #I'M DOIN' (imdo.in)
 
+[See it in action!](http://one19.codes/)
+
 ### WHAT THIS WEBSITE DO
 Shows a status of what you're doing! When using the npm package `im-doin` and properly setting it up (once that step is done, that is), you'll be able to fire off status updates with a message and a color/image/(eventually a valid gradientstring or one of a subset of pre-rendered svgish backgrounds), and have it display on your own `imdo.in` website!
 
