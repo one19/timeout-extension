@@ -1,0 +1,15 @@
+{
+  "presets": ["es2016", "stage-1", "env"],
+  "plugins": [
+    "styled-components",
+    "transform-flow-strip-types",
+    ["transform-react-jsx", { "pragma": "h" }],
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "src": "./src",
+        "test": "./test"
+      }
+    }]
+  ]
+}

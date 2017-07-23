@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "shortlyster",
+    "prettier"
+  ],
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "h"
+    }
+  },
+  "rules": {
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+    }],
+    "react/jsx-filename-extension": "off"
+  },
+  "globals": {
+    "document": "true",
+    "expect": true,
+    "Firebase": "true",
+  }
+}
