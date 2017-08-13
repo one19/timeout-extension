@@ -1,7 +1,7 @@
 {
-  "name": "im-doin-frontend",
+  "name": "timeout-extension",
   "version": "1.0.0",
-  "description": "egghead preact coursework storage",
+  "description": "chrome timer extension",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline",
@@ -20,18 +20,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/one19/im-doin-frontend.git"
+    "url": "git@github.com:one19/timeout-extension.git"
   },
   "keywords": [
     "preact",
-    "webpack"
+    "webpack",
+    "chrome extension"
   ],
   "author": "Drew Showalter <maelstroswim@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/one19/im-doin-frontend/issues"
+    "url": "https://github.com/one19/timeout-extension/issues"
   },
-  "homepage": "https://github.com/one19/im-doin-frontend#readme",
+  "homepage": "https://github.com/one19/timeout-extension#readme",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
