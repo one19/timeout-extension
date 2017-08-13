@@ -21,7 +21,9 @@
   },
   "globals": {
     "document": "true",
+    "window": "true",
     "expect": true,
     "Firebase": "true",
+    "chrome": "true"
   }
 }
