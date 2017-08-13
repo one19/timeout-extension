@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Timeout!",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+  "background": {
+    "persistent": true,
+    "page": "background.html"
+  },
+  "web_accessible_resources": [
+     "timeout128.png",
+     "timeout64.png",
+     "timeout32.png"
+  ],
+  "icons": {
+    "128": "timeout128.png",
+    "64": "timeout64.png",
+    "32": "timeout32.png"
+  },
+  "browser_action": {
+    "default_icon": "timeout128.png",
+    "default_popup": "index.html",
+    "default_title": "Set an alarm!"
+  },
+  "permissions": [
+    "activeTab",
+    "background",
+    "notifications",
+    "storage",
+    "alarms"
+  ]
+}
